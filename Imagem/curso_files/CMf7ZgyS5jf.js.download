@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["35Ugi"]); }
+
+__d("SkywalkerUtils",["CurrentLocale","RTISubscriptionManagerConfig"],(function(a,b,c,d,e,f,g,h){__p&&__p();a={patchContext:function(a){a=a||{};a.locale=g.get();if(h.assimilator){var b=h.assimilator;b.tierType!=null&&(a.tierType=b.tierType);b.sandboxIP!=null&&b.sandboxPort!=null&&b.sandboxHostname!=null&&(a.sandboxIP=b.sandboxIP,a.sandboxPort=b.sandboxPort,a.sandboxHostname=b.sandboxHostname)}return a}};e.exports=a}),null);

@@ -1,0 +1,39 @@
+#fundo-depoimentos{
+    background-color: rgb(88, 85, 85);
+}
+.hr-panel{
+    background-color: rgb(163, 48, 48);
+    height: 3px;
+    width: 100px;
+    margin: 0 auto 0 auto;
+}
+.cima{
+    margin-top: 100px;
+}
+p {
+   
+    word-wrap: break-word;
+    color:  rgb(120, 120, 120);    
+    font-family: crimson text,times new roman,Times,serif;             
+   
+}
+.comentario{
+    padding-top:10px;
+}
+.icon-right{
+    float:right;
+    color:#ccc; 
+    font-size: 30px;
+}
+.panel-depoimentos{
+   
+    
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-image: url(imagem/depoimentos.png);
+    border-bottom: 1px solid rgba(0, 0, 0, .075);
+    background-size: initial!important;
+    opacity: rgba(0,0,0,.5);
+    height: 150px;
+}
+ 

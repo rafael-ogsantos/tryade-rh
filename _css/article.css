@@ -1,0 +1,240 @@
+ body{
+     margin: 0;
+     padding: 0;
+     background-color: rgb(61, 60, 60);
+ }
+.menufeito {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 148px;
+    height: 40px;
+    padding-top: 14px;
+    margin-left: 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 50px;
+    
+}
+
+.menu-grande {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    padding-top: 14px;
+    margin-left: 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 50px;
+    
+}
+.login{
+   background-color: white;
+    text-align: center;
+    color: rgb(190, 115, 115);
+    width: 114px;
+    padding-top: 11px;
+    height: 40px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.text:hover{
+  color: white;
+  text-decoration: none;
+}
+.login:hover{
+    background-color:  transparent;
+    color: rgb(252, 252, 252);
+    border: 1px solid white;
+    text-decoration: none;
+    transition: 1s;
+}
+@media (max-width: 900px){
+    .menufeito, .menu-grande, .login{
+        display: none;
+    }
+
+}
+label[for="bt_menu"]{
+    padding: 5px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 40px;
+margin-top: -10px;
+
+  }
+  label[for="bt_menu"]{
+    display: none;
+  }
+  #bt_menu{
+      display: none;
+  }
+  @media(max-width: 900px){
+    label[for="bt_menu"]{
+        display: block;
+        margin: 10px;
+      }
+    .menu ul li{
+        width: 100%;
+        float: none;
+        background-color: black;
+    }
+   
+  }
+.menufeito:hover {
+    background-color: rgb(179, 91, 91);
+    color: white;
+    cursor: pointer;
+}
+.menu-grande:hover{
+    background-color: rgb(179, 91, 91);
+    color: white;
+    cursor: pointer;
+}
+.banner {
+    height: 300px;
+    width: 100%;
+    right: 0;
+    background-image: linear-gradient(rgba(185, 40, 40, 0.45), rgba(181, 167, 233, 0.45)), url(imagem/banner.jpg) ;
+    object-fit: cover;
+}
+#facebook a{
+    font-size: 40px;
+  
+    cursor: pointer;
+    margin-right: 22px;
+    
+ 
+    color: #ccc;
+  }
+  #facebook a:hover{
+    color: #fff;
+    
+  }
+  #email a{
+      font-size: 40px;
+      cursor: pointer;
+      color: #ccc;
+  }
+  #email a:hover{
+      color: white;
+  }
+.panel-white{
+    padding-left: 10px;
+    background-color: white;
+    height: 120vh !important;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+    box-shadow: 0 0 2.5em 0.5em rgba(204,204,204,0.5);
+    margin-top:-50;
+    right: 0;
+   
+}
+@media(max-width:700px){
+    .panel-white{
+        height: 2700px !important;
+    }
+    
+}
+.center{
+   margin: 0 auto 0 auto;
+}
+.paineis-vagas{
+   
+  
+    margin-top: 50px;
+    border-top: 1px solid rgb(165, 58, 58);
+    border-left: 1px solid rgb(227, 227, 227);
+    border-right: 1px solid rgb(227, 227, 227);
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 50px;
+}
+.ver{
+    border-radius: 30px;
+    background-color:  rgb(165, 58, 58);
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+.panel-cinza{
+    background-color: rgb(248, 245, 245);
+     margin-top: 50px;
+     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
+    
+}
+.botao-inscreva{
+	margin-left: 120px;
+	padding: 10px;
+	background-color: rgb(142, 165, 40);
+	color: white;
+	border: none;
+	border-radius: 5px;
+
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	margin-bottom: 20px;
+	 margin-top: 20px;
+
+}
+.imagem-treinamento{
+    width: 100%;
+    height: 150px;
+   object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.footer{
+    display: block;
+}
+.panel-blue{
+    padding-top: 20px;
+	padding-bottom: 20px;
+    clear: both;
+    display: block;
+	color: rgb(153, 151, 156);
+	text-align: center;
+	background-color: rgb(49, 49, 49);
+}
+.panel-copy{
+    
+	padding-bottom: 10px;
+
+	color: rgb(153, 151, 156);
+	text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-top: 1px solid rgb(87, 86, 86);
+}

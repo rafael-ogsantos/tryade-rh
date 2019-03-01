@@ -1,0 +1,65 @@
+.modal-vagas {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(0, 0, 0, .5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.md-painel {
+	background: #fdfcfc;
+	width: 60%;
+	min-width: 300px;
+	padding: 40px;
+
+	position: relative;
+}
+
+@media (max-width:800px) {
+	.md-painel {
+		width: 100%;
+	}
+}
+
+@keyframes modal {
+	from {
+		opacity: 0;
+		transform: (0, -60px, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.mostrar.md-painel {
+	animation: modal.3s;
+}
+
+.fechar {
+	position: absolute;
+	top: -30px;
+	right: -30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 4px solid white;
+	background: #862424;
+	color: white;
+	cursor: pointer;
+	font-family: "PT mono";
+	box-shadow: 0 4px 4px 0 rgb(0, 0, 0, .5)
+}
+
+@media(max-width:720px) {
+	.fechar {
+		margin-top: 20px;
+		margin-right: 25px;
+	}
+}

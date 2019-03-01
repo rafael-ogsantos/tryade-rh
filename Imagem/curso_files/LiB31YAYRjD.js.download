@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ieKRd"]); }
+
+__d("MNTURLActionHandler",["MPageController","URI"],(function(a,b,c,d,e,f,g,h){"use strict";var i=h.goURIOnWindow;a={performAction:function(a){a.clickLink&&a.link&&a.link.click?a.link.click():a.openInNewWindow?i(a.url,window.open("","_blank"),!0):g.load(a.url)}};e.exports=a}),null);

@@ -1,0 +1,37 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^tryaderh.com.br [NC]
+RewriteRule ^(.*)$ http://www.tryaderh.com.br/$1 [L,R=301,NC]
+RewriteRule (.*)index\.html$ /$1 [NS,R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#ErrorDocument 400 /404.html
+#ErrorDocument 401 /404.html
+#ErrorDocument 403 /404.html
+#ErrorDocument 404 /404.html
+#ErrorDocument 500 /404.html
+
+
+
+RewriteRule ^index/?$ index.html [NC,L]
+RewriteRule ^quem-somos-e-oque-fazemos/?$ quem-somos-e-oque-fazemos.html [NC,L]
+RewriteRule ^oportunidades-de-emprego/?$ oportunidades-de-emprego.html [NC,L]
+RewriteRule ^candidato/?$ candidato.html [NC,L]
+RewriteRule ^contato/?$ contato.html [NC,L]
+RewriteRule ^servicos/?$ servicos.html [NC,L]
+RewriteRule ^depoimentos/?$ depoimentos.php [NC,L]
+RewriteRule ^depoimento/?$ depoimento.php [NC,L]
+RewriteRule ^treinamentos/?$ treinamentos.html [NC,L]
+RewriteRule ^faca-um-depoimento/?$ faca-um-depoimento.html [NC,L]
+RewriteRule ^clientes-e-parceiros/?$ clientes-e-parceiros.html [NC,L]
+RewriteRule ^login/?$ login.html [NC,L]
+RewriteRule ^preencha-os-campos-necessarios-para-se-candidatar/?$ preencha-os-campos-necessarios-para-se-candidatar.html [NC,L]
+
+
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x- javascript application/javascript
+</ifmodule>
+#End Gzip
+
+Options all

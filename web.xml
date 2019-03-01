@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+
+<appSettings>
+<add key="ConnectionString" value="Provider=Microsoft.Jet.OLEDB.4.0;Data 
+Source=C:\MySystem\Database.mdb;Persist Security Info=False" />
+</appSettings>
+
+<system.web>
+
+<compilation debug="true" defaultLanguage="vb" explicit="true" batch="true" 
+batchTimeout="15" maxBatchSize="1000" maxBatchGeneratedFileSize="3000" 
+numRecompilesBeforeAppRestart="15" strict="false" />
+
+<authentication mode="Forms">
+<forms name=".ASPXAUTH" protection="All" timeout="60" 
+loginUrl="default.aspx" path="/" />
+</authentication>
+
+<authorization>
+<deny users="?" />
+</authorization>
+
+<httpRuntime useFullyQualifiedRedirectUrl="true" executionTimeout="90" 
+maxRequestLength="4096" minFreeThreads="8" minLocalRequestFreeThreads="4" 
+appRequestQueueLimit="100" />
+
+<deviceFilters>
+<filter name="isJScript" compare="javascript" argument="true" />
+<filter name="isPocketIE" compare="browser" argument="Pocket IE" />
+<filter name="isHTML32" compare="preferredRenderingType" argument="html32" />
+</deviceFilters>
+
+<customErrors mode="Off" />
+
+</system.web>
+
+</configuration>

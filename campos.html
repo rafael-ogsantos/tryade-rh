@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="_css/sobre.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <nav class=" navbar navbar-inverso ">
+
+        <div class="container-fluid">
+            <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-9" aria-expanded="false"> <span class="sr-only">Toggle
+                        navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button> <a href="#" class="navbar-brand"><img src="Imagem/logo.jpg" width="100" style="margin-top:-20px"></a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-9" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li class=""><a style="color:#606060;   transition: background-color 1s;" href="#">Home</a></li>
+                    <li class=""><a style="color:#606060;   transition: background-color 1s;" href="sobre.html">Quem
+                            somos</a></li>
+                    <li><a style="color:#606060;   transition: background-color 1s;" href="#">Clientes e parceiros</a></li>
+                    <li><a style="color:#606060;   transition: background-color 1s;" href="#">Contato</a></li>
+                    <li><a style="color:#606060;   transition: background-color 1s;" href="#">Treinamentos</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="inter">
+        <div class="col-md-14">
+            <div style="margin-top:-20px">
+                <div class=" panel-azul">
+                    <div class="panel-tamanho">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="campos">
+        <img src="Imagem/foto.png" style="margin-bottom:20px;margin-top:-30px" width="100%" height="300px">
+        <div class="row">
+            <div class="text-center">
+                <i class="glyphicon glyphicon-briefcase"></i> <span style="text-align: center">Preencha um curriculo
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div style="margin-left:150px">
+                    <div>
+                        <form action="processa.php" method="POST" class="bs-example bs-example-form">
+                            <fieldset>
+                                <legend>CAdastre-se</legend>
+                                <div class="bs-example" data-example-id="simple-form-inline">
+                                    <div class="form-group"> <label class="sr-only" for="exampleInputEmail3">Nome
+                                            completo</label>
+                                        <input type="text" name="nome" class="form-control" id="exampleInputEmail3"
+                                            placeholder="Nome completo">
+                                    </div>
+                                    <div class="form-group"> <label class="sr-only" for="exampleInputEmail3">Email
+                                            address</label>
+                                        <input type="email" name="email" class="form-control" id="exampleInputEmail3"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="form-group"> <label class="sr-only">Escolaridade</label>
+                                        <input type="text" name="escolaridade" class="form-control" placeholder="Escolaridade">
+                                    </div>
+                                    <div class="form-group"> <label class="sr-only" for="exampleInputEmail3">Email
+                                            address</label>
+                                        <textarea type="text" name="instituicao" class="form-control" id="exampleInputEmail3"
+                                            rows="3" placeholder="instituição"></textarea>
+                                    </div>
+                                    <div class="form-group"> <label class="sr-only" for="exampleInputEmail3">Email
+                                            address</label>
+                                        <textarea type="text" name="habilidades" class="form-control" id="exampleInputEmail3"
+                                            rows="3" placeholder="descreva suas habilidades e conhecimentos"></textarea>
+                                    </div>
+
+
+                                </div>
+
+                            </fieldset>
+
+                            <div style="float: right">
+                                <input type="submit" style="color: white; background-color:#B40404; padding: 10px;border:none;text-decoration: none;border-radius:10px">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-5">
+                <div style="margin-left:30%">
+                    <div class="panel-cinza">
+                        <div class="panel-body">
+                            <div style="display: flex">
+                                <i class="glyphicon glyphicon-briefcase"></i>
+                                <h6 style="margin-left:10px">ASSISTENTE DE DEPARTAMENTO/PLENO </h6>
+                            </div>
+                            <hr>
+                            <p>Salário:</p> <span style="color:rgb(161, 153, 153)">R$2.500/MÊS</span>
+                            <hr>
+                            <p class="text-center">Necessário experiencia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bs-docs-footer">
+        <div class="container">
+            <nav id="submenu">
+                <ul class="bs-docs-footer-links">
+                    <li><a href="#">Email</a></li>|
+                    <li><a href="#">Twitter</a></li>|
+                    <li><a href="#">Youtube</a></li>|
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </nav>
+            </ul>
+            <p>tryaderh&copy;2018 </a>.</p>
+            <p>Desenvolvido por Rafael galvão </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
